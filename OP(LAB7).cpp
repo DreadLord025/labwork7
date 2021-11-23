@@ -18,7 +18,7 @@ int main()
 	cout << "Введите Y - ";
 	cin >> y;
 
-	for (int n = 1; n < 6; n++)
+	for (int n = 3; n < 9; n++)
 	{
 		sum *= n;
 		cout << sum << endl;
@@ -26,6 +26,7 @@ int main()
 
 	urav = log(pow(y, 2)) + sum;
 	cout << "Z = " << urav << endl;
+
 	system("pause");
 	return 0;
 }
